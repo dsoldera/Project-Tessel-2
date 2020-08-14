@@ -1,15 +1,13 @@
-//https://github.com/soapdog/evento-webbr2016
-
-// Importar a Interface para o Hardware
+// Import the interface to Tessel hardware
 var tessel = require('tessel');
 
-// Ligar um LED antes do loop.
+// Turn one of the LEDs on to start.
 tessel.led[2].on();
 
-// Piscar!!!
+// Blink!
 setInterval(function () {
-  tessel.led[2].toggle(); // essa porta 2 é um LED
-  tessel.led[3].toggle(); // essa porta 3 é um LED
+  tessel.led[2].toggle();
+  tessel.led[3].toggle();
 }, 100);
 
-console.log("Pisca! (Aperte CTRL + C para interromper)");
+console.log("I'm blinking! (Press CTRL + C to stop)");

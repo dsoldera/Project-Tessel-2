@@ -1,21 +1,20 @@
 {
-  "name": "blinky",
+  "name": "Project-Tessel-2",
   "version": "0.0.0",
-  "description": "Tessel project",
+  "description": "project to Create Node Plugins to run on Tessel 2",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "johnny-five": "^2.0.0",
+    "tessel-io": "^1.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "git://github.com/dsoldera/Project-Tessel-2.git",
   "keywords": [
-    "Tessel 2"
+    "Tessel"
   ],
   "license": "MIT",
-  "readme": "A bare bones Tessel 2 blinky script.",
-  "devDependencies": {
-    "barcli": "0.0.23",
-    "johnny-five": "^0.10.3",
-    "tessel-io": "^0.9.0",
-    "twitter": "^1.4.0"
-  }
+  "readme": "A bare bones Tessel 2 blinky script."
 }
